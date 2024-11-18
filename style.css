@@ -1,0 +1,42 @@
+body {
+    background-color: #383838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que ocupe toda a altura da tela */
+    margin: 0; /* Remove qualquer margem padrão do body */
+}
+
+.form-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 500px;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-floating input,
+.form-floating textarea{
+    border-radius: 10px;
+    padding: 100px;    
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+textarea .form-control {
+    resize: none;
+}
+
+button .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
